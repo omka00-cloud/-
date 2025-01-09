@@ -34,14 +34,14 @@
           <img src="product1.jpg" alt="Товар 1">
           <h3>Товар 1</h3>
           <p>Описание товара 1</p>
-          <p>Цена: 1000 руб.</p>
+          <p>Цена: 1000 cом</p>
           <button class="add-to-cart">Добавить в корзину</button>
         </div>
         <div class="product-item">
           <img src="product2.jpg" alt="Товар 2">
           <h3>Товар 2</h3>
           <p>Описание товара 2</p>
-          <p>Цена: 2000 руб.</p>
+          <p>Цена: 2000 сом</p>
           <button class="add-to-cart">Добавить в корзину</button>
         </div>
         <!-- Добавьте больше товаров здесь -->
@@ -62,84 +62,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-}
-
-header h1 {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-header nav ul {
-  list-style: none;
-  float: right;
-  margin-right: 20px;
-}
-
-header nav ul li {
-  display: inline;
-  margin-left: 20px;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.products {
-  padding: 20px 0;
-  background-color: #fff;
-}
-
-.product-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.product-item {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  text-align: center;
-  width: 45%;
-}
-
-.product-item img {
-  width: 100%;
-  max-width: 200px;
-}
-
-.product-item button {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.product-item button:hover {
-  background-color: #444;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
